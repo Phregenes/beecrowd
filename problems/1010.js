@@ -3,7 +3,6 @@ export function problem(lines) {
   // let value2 = lines.shift();
   
   function calcularTotal(lista) {
-    debugger
     let total = 0;
     for (let i = 0; i < lista.length; i++) {
       const valores = lista[i].split(' ');
