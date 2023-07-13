@@ -6,7 +6,7 @@ export function problem(lines) {
   for (let i = 0; i < celulas.length; i++) {
     if (valor >= celulas[i]) {
       let quantidadeNotas = Math.floor(valor / celulas[i]);
-      valor -= quantidadeNotas * celulas[i];
+      valor -= quantidadeNotas * celulas[i] ;
       console.log(`${quantidadeNotas} nota(s) de R$ ${celulas[i]},00`);
     } else {
       console.log(`0 nota(s) de R$ ${celulas[i]},00`);

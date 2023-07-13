@@ -3,7 +3,6 @@ export function problem(lines) {
   let notaB = lines.shift();
   let notaC = lines.shift();
 
-  // Defina os pesos de cada nota
   const pesoA = 2;
   const pesoB = 3;
   const pesoC = 5;
